@@ -37,7 +37,7 @@ with fig_col1:
     st.write(fig)
 with fig_col2:
     st.markdown("### Second chart")
-    fig2 = px.histogram(data_frame = df, x="age")
+    fig2 = px.histogram(data_frame=df, x='age')
     st.write()
 
 st.markdown("### Detailed Data view")
